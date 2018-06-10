@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceRoot": "src",
+        "outDir": "lib",
+        "sourceMap": true,
+        "declaration": true,
+        "lib": [
+            "es7"
+        ],
+        "noUnusedLocals": true
+    }
+}

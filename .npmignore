@@ -1,0 +1,8 @@
+.vscode/
+[Ll]ib/*.map
+[Ll]ib/[Tt]ests
+src/
+test/
+.gitignore
+.npmignore
+tsconfig.json

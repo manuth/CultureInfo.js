@@ -1,0 +1,30 @@
+{
+  "name": "culture-info",
+  "version": "0.0.0",
+  "description": "A node-package for representing locales.",
+  "author": {
+    "name": "Manuel Thalmann",
+    "url": "https://nuth.ch/"
+  },
+  "main": "./bin/main.js",
+  "types": "bin/main.d.ts",
+  "devDependencies": {
+    "@types/mocha": "^5.2.0",
+    "@types/node": "^10.1.3",
+    "mocha": "^5.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "scripts": {
+    "watch": "tsc -watch -p ./",
+    "compile": "tsc -p ./",
+    "test": "mocha"
+  },
+  "files": [
+    "bin"
+  ],
+  "license": "MIT"
+}
