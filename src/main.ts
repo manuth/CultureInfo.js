@@ -1,3 +1,5 @@
+import CultureInfo from "./CultureInfo";
+
 /**
  * This is your module: culture-info
  * 
@@ -8,7 +10,4 @@
  * import * as cultureinfo from 'culture-info';
  * cultureinfo.Example();
  */
-export function Example()
-{
-    return true;
-}
+export default CultureInfo;
