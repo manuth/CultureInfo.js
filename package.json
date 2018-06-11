@@ -23,8 +23,5 @@
     "compile": "tsc -p ./",
     "test": "mocha"
   },
-  "files": [
-    "bin"
-  ],
   "license": "MIT"
 }
