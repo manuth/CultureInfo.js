@@ -1,6 +1,6 @@
 {
   "name": "culture-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node-package for representing locales.",
   "author": {
     "name": "Manuel Thalmann",
