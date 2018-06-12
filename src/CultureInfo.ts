@@ -126,8 +126,8 @@ export default class  CultureInfo
     /**
      * @inheritDoc
      */
-    public valueOf(): Object
+    public valueOf(): object
     {
-        return this.Name;
+        return this.Name as any;
     }
 }
