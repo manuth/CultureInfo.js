@@ -31,5 +31,5 @@ describe("CultureInfo", () =>
         assert.strictEqual(CultureInfo.InvariantCulture.toString(), "");
         assert.strictEqual(new CultureInfo("de").Parent, CultureInfo.InvariantCulture);
         assert.strictEqual(new CultureInfo("zh-Hans-CN").Parent.Parent.Parent, CultureInfo.InvariantCulture);
-    })
+    });
 });
