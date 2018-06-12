@@ -6,8 +6,8 @@
     "name": "Manuel Thalmann",
     "url": "https://nuth.ch/"
   },
-  "main": "./bin/main.js",
-  "types": "bin/main.d.ts",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
   "devDependencies": {
     "@types/mocha": "^5.2.0",
     "@types/node": "^10.1.3",
