@@ -1,5 +1,5 @@
 # Changelog
-## CultureInvo v0.0.4
+## CultureInfo v0.0.4
   - Improve the JSDocs
 
 ## CultureInfo v0.0.2
