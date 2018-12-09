@@ -1,5 +1,5 @@
 import * as assert from "assert";
-import CultureInfo from "../..";
+import CultureInfo from "../main";
 
 suite("CultureInfo", () =>
 {
