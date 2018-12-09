@@ -1,7 +1,7 @@
 /**
  * Provides information about a specific culture (called a locale for unmanaged code development).
  */
-export default class  CultureInfo
+export class  CultureInfo
 {
     /**
      * The invariant culture.
