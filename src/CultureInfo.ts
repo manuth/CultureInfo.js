@@ -25,7 +25,7 @@ export default class  CultureInfo
 
     /**
      * Initializes a new instance of the `CultureInfo` class.
-     * 
+     *
      * @param name
      * A predefined `CultureInfo` name, `Name` of an existing `CultureInfo`. `name` is not case-sensitive.
      */
@@ -66,7 +66,7 @@ export default class  CultureInfo
         {
             this.invariantCulture = new CultureInfo("");
         }
-        
+
         return this.invariantCulture;
     }
 
@@ -104,7 +104,7 @@ export default class  CultureInfo
     public get Parent(): CultureInfo
     {
         let nameParts = this.Name.split("-");
-        
+
         if (this.IsNeutralCulture || this.Name === CultureInfo.InvariantCulture.Name)
         {
             return CultureInfo.InvariantCulture;
@@ -116,17 +116,17 @@ export default class  CultureInfo
     }
 
     /**
-     * @inheritDoc
+     * Returns a string which represents the object.
      */
-    public toString(): string
+    public toString()
     {
         return this.Name;
     }
 
     /**
-     * @inheritDoc
+     * Returns the primitive value of the object.
      */
-    public valueOf(): object
+    public valueOf(): any
     {
         return this.Name as any;
     }
