@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compile",
+            "label": "Build",
             "type": "npm",
             "script": "watch",
             "group": {
@@ -12,10 +12,28 @@
                 "isDefault": true
             },
             "problemMatcher": "$tsc-watch",
+            "isBackground": true,
             "presentation": {
-                "reveal": "silent"
-            },
-            "isBackground": true
+                "reveal": "never"
+            }
+        },
+        {
+            "label": "Rebuild",
+            "type": "npm",
+            "script": "rebuild",
+            "problemMatcher": "$tsc",
+            "presentation": {
+                "reveal": "never"
+            }
+        },
+        {
+            "label": "Lint",
+            "type": "npm",
+            "script": "lint",
+            "problemMatcher": "$tslint5",
+            "presentation": {
+                "reveal": "never"
+            }
         }
     ]
 }
