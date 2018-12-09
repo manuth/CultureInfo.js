@@ -1,7 +1,7 @@
 {
   "name": "culture-info",
   "version": "0.0.4",
-  "description": "A node-package for representing locales.",
+  "description": "A node-package for representing locales",
   "author": {
     "name": "Manuel Thalmann",
     "url": "https://nuth.ch/"
