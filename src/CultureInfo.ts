@@ -128,6 +128,6 @@ export class  CultureInfo
      */
     public valueOf(): any
     {
-        return this.Name as any;
+        return this.Name;
     }
 }
