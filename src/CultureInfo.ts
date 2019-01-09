@@ -62,12 +62,12 @@ export class  CultureInfo
      */
     public static get InvariantCulture(): CultureInfo
     {
-        if (!this.invariantCulture)
+        if (!CultureInfo.invariantCulture)
         {
-            this.invariantCulture = new CultureInfo("");
+            CultureInfo.invariantCulture = new CultureInfo("");
         }
 
-        return this.invariantCulture;
+        return CultureInfo.invariantCulture;
     }
 
     /**
