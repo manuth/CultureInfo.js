@@ -103,14 +103,13 @@ export class  CultureInfo
      */
     public get Parent(): CultureInfo
     {
-        let nameParts = this.Name.split("-");
-
-        if (this.IsNeutralCulture || this.Name === CultureInfo.InvariantCulture.Name)
+        if (this.IsNeutralCulture || this === CultureInfo.InvariantCulture)
         {
             return CultureInfo.InvariantCulture;
         }
         else
         {
+            let nameParts = this.Name.split("-");
             return new CultureInfo(nameParts.slice(0, nameParts.length - 1).join("-"));
         }
     }
