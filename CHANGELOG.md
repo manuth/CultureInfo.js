@@ -7,37 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## CultureInfo.js v1.0.2
   - Rework the invariant culture
 
-[Show differences][v1.0.2]
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.1...v1.0.2)
 
 ## CultureInfo.js v1.0.1
   - Improve the stability
 
-[Show differences][v1.0.1]
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.0...v1.0.1)
 
 ## CultureInfo.js v1.0.0
   - Improve the stability of the module
 
-[Show differences][v1.0.0]
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v0.0.4...v1.0.0)
 
 ## CultureInfo.js v0.0.4
   - Improve the JSDocs
 
-[Show differences][v0.0.4]
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v0.0.2...v0.0.4)
 
 ## CultureInfo.js v0.0.2
   - Fix type-definition of the CultureInfo class
 
-[Show differences][v0.0.2]
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v0.0.1...v0.0.2)
 
 ## CultureInfo.js v0.0.1
   - Provide the base functionality
 
-[Show differences][v0.0.1]
-
-<!--- References -->
-[v0.0.1]: https://github.com/manuth/CultureInfo.js/compare/46ea2bd...v0.0.1
-[v0.0.2]: https://github.com/manuth/CultureInfo.js/compare/v0.0.1...v0.0.2
-[v0.0.4]: https://github.com/manuth/CultureInfo.js/compare/v0.0.2...v0.0.4
-[v1.0.0]: https://github.com/manuth/CultureInfo.js/compare/v0.0.4...v1.0.0
-[v1.0.1]: https://github.com/manuth/CultureInfo.js/compare/v1.0.0...v1.0.1
-[v1.0.2]: https://github.com/manuth/CultureInfo.js/compare/v1.0.1...v1.0.2
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/46ea2bd0626a8ef46c62b05d69b478cc09049a92...v0.0.1)
