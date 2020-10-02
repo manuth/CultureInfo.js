@@ -10,7 +10,7 @@ This key feature might be usable for creating a resource-manager or showing web-
 You can create a `CultureInfo` instance by passing a language-tag to its constructor:
 
 ```ts
-import { CultureInfo } from "culture-info";
+import { CultureInfo } from "@manuth/culture-info";
 
 let culture = new CultureInfo("en-US");
 ```
