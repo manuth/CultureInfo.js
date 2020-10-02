@@ -1,7 +1,7 @@
 /**
  * Provides information about a specific culture (called a locale for unmanaged code development).
  */
-export class  CultureInfo
+export class CultureInfo
 {
     /**
      * The invariant culture.
@@ -116,14 +116,20 @@ export class  CultureInfo
 
     /**
      * Returns a string which represents the object.
+     *
+     * @returns
+     * A string which represents the object.
      */
-    public toString()
+    public toString(): string
     {
         return this.Name;
     }
 
     /**
      * Returns the primitive value of the object.
+     *
+     * @returns
+     * The primitive value of the object.
      */
     public valueOf(): any
     {
