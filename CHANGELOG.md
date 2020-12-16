@@ -6,7 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## CultureInfo.js [Unreleased]
 
-[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.6...dev)
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.7...dev)
+
+## CultureInfo.js v1.0.7
+### Fixed
+  - Broken dependabot-settings
+
+### Updated
+  - All dependencies
+
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.6...v1.0.7)
 
 ## CultureInfo.js v1.0.6
 ### Added
