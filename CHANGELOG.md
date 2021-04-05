@@ -6,14 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## CultureInfo.js [Unreleased]
 
-[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.8...dev)
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.9...dev)
+
+## CultureInfo.js v1.0.9
+### Added
+  - A workflow for merging Dependabot-PRs
+  - A workflow for analyzing the code
+
+### Updated
+  - All dependencies
+  - The drone-pipelines
+
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.8...v1.0.9)
 
 ## CultureInfo.js v1.0.8
 ### Fixed
   - Vulnerabilities in dependencies
-### Added
-  - A workflow for merging Dependabot-PRs
-  - A workflow for analyzing the code
+
 ### Updated
   - All dependencies
 
