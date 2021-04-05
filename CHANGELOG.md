@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updated
   - All dependencies
+  - The drone-pipelines
 
 [Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.7...v1.0.8)
 
