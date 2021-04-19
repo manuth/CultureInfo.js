@@ -1,6 +1,6 @@
 {
   "name": "@manuth/culture-info",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A node-package for representing locales",
   "author": "Manuel Thalmann <m@nuth.ch>",
   "license": "MIT",
