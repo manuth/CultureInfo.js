@@ -24,7 +24,7 @@ suite(
             });
 
         test(
-            "Checking \"CultureInfo to string\"-conversion...",
+            'Checking "CultureInfo to string"-conversion...',
             () =>
             {
                 strictEqual(new CultureInfo("en-US").toString(), "en-US");
