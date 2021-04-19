@@ -2,7 +2,7 @@ import { strictEqual } from "assert";
 import { CultureInfo } from "..";
 
 suite(
-    "CultureInfo", () =>
+    "CultureInfo.js", () =>
     {
         test(
             "Checking whether the case of the case of cultures are converted correctly...",
