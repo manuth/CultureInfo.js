@@ -12,7 +12,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
   - All dependencies
 
-[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.9...dev)
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.10...dev)
+
+## CultureInfo.js v1.0.10
+### Fixed
+  - Broken dependabot-settings
+  - Broken Auto-Merge workflow
+
+### Updated
+  - All dependencies
+
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.10...dev)
 
 ## CultureInfo.js v1.0.9
 ### Added
