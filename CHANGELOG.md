@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## CultureInfo.js [Unreleased]
+
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.11...dev)
+
+## CultureInfo.js v1.0.11
 ### Fixed
   - Drone-pipeline for multi-digit version-numbers
   - Vulnerabilities in dependencies
@@ -12,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
   - All dependencies
 
-[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.10...dev)
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v1.0.10...v1.0.11)
 
 ## CultureInfo.js v1.0.10
 ### Fixed
