@@ -40,11 +40,11 @@ export class CultureInfo
         }
         else if (result[0].length === 0)
         {
-            this.language = "";
+            this.Language = "";
         }
         else
         {
-            this.language = result[1].toLowerCase();
+            this.Language = result[1].toLowerCase();
 
             if (result[2])
             {
@@ -76,7 +76,7 @@ export class CultureInfo
      */
     public get IsNeutralCulture(): boolean
     {
-        return !this.region && !this.script;
+        return !this.region && !this.Script;
     }
 
     /**
@@ -84,11 +84,11 @@ export class CultureInfo
      */
     public get Name(): string
     {
-        let result = this.language;
+        let result = this.Language;
 
-        if (this.script)
+        if (this.Script)
         {
-            result += "-" + this.script;
+            result += "-" + this.Script;
         }
 
         if (this.region)
@@ -113,6 +113,54 @@ export class CultureInfo
             let nameParts = this.Name.split("-");
             return new CultureInfo(nameParts.slice(0, nameParts.length - 1).join("-"));
         }
+    }
+
+    /**
+     * Gets or sets the language of the culture.
+     */
+    protected get Language(): string
+    {
+        return this.language;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    protected set Language(value: string)
+    {
+        this.language = value;
+    }
+
+    /**
+     * Gets or sets the script of the culture.
+     */
+    protected get Script(): string
+    {
+        return this.script;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    protected set Script(value: string)
+    {
+        this.script = value;
+    }
+
+    /**
+     * Gets or sets the region of the culture.
+     */
+    protected get Region(): string
+    {
+        return this.region;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    protected set Region(value: string)
+    {
+        this.region = value;
     }
 
     /**
