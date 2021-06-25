@@ -24,10 +24,10 @@ export class CultureInfo
     private region: string = null;
 
     /**
-     * Initializes a new instance of the `CultureInfo` class.
+     * Initializes a new instance of the {@link CultureInfo `CultureInfo`} class.
      *
      * @param name
-     * A predefined `CultureInfo` name, `Name` of an existing `CultureInfo`. `name` is not case-sensitive.
+     * A non case-sensitive predefined {@link CultureInfo `CultureInfo`} name.
      */
     public constructor(name: string)
     {
@@ -39,26 +39,26 @@ export class CultureInfo
         }
         else if (result[0].length === 0)
         {
-            this.language = "";
+            this.Language = "";
         }
         else
         {
-            this.language = result[1].toLowerCase();
+            this.Language = result[1].toLowerCase();
 
             if (result[2])
             {
-                this.script = result[2].charAt(0).toUpperCase() + result[2].slice(1).toLocaleLowerCase();
+                this.Script = result[2].charAt(0).toUpperCase() + result[2].slice(1).toLocaleLowerCase();
             }
 
             if (result[3])
             {
-                this.region = result[3].toUpperCase();
+                this.Region = result[3].toUpperCase();
             }
         }
     }
 
     /**
-     * Gets the `CultureInfo` object that is culture-independent (invariant).
+     * Gets the {@link CultureInfo `CultureInfo`} object that is culture-independent (invariant).
      */
     public static get InvariantCulture(): CultureInfo
     {
@@ -71,11 +71,11 @@ export class CultureInfo
     }
 
     /**
-     * Gets a value indicating whether the current `CultureInfo` represents a neutral culture.
+     * Gets a value indicating whether the current {@link CultureInfo `CultureInfo`} represents a neutral culture.
      */
     public get IsNeutralCulture(): boolean
     {
-        return !this.region && !this.script;
+        return !this.Region;
     }
 
     /**
@@ -83,27 +83,27 @@ export class CultureInfo
      */
     public get Name(): string
     {
-        let result = this.language;
+        let result = this.Language;
 
-        if (this.script)
+        if (this.Script)
         {
-            result += "-" + this.script;
+            result += "-" + this.Script;
         }
 
-        if (this.region)
+        if (this.Region)
         {
-            result += "-" + this.region;
+            result += "-" + this.Region;
         }
 
         return result;
     }
 
     /**
-     * Gets the `CultureInfo` that represents the parent culture of the current `CultureInfo`.
+     * Gets the {@link CultureInfo `CultureInfo`} that represents the parent culture of the current {@link CultureInfo `CultureInfo`}.
      */
     public get Parent(): CultureInfo
     {
-        if (this.IsNeutralCulture || this === CultureInfo.InvariantCulture)
+        if (this.Script === null && this.Region === null)
         {
             return CultureInfo.InvariantCulture;
         }
@@ -112,6 +112,54 @@ export class CultureInfo
             let nameParts = this.Name.split("-");
             return new CultureInfo(nameParts.slice(0, nameParts.length - 1).join("-"));
         }
+    }
+
+    /**
+     * Gets or sets the language of the culture.
+     */
+    protected get Language(): string
+    {
+        return this.language;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    protected set Language(value: string)
+    {
+        this.language = value;
+    }
+
+    /**
+     * Gets or sets the script of the culture.
+     */
+    protected get Script(): string
+    {
+        return this.script;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    protected set Script(value: string)
+    {
+        this.script = value;
+    }
+
+    /**
+     * Gets or sets the region of the culture.
+     */
+    protected get Region(): string
+    {
+        return this.region;
+    }
+
+    /**
+     * @inheritdoc
+     */
+    protected set Region(value: string)
+    {
+        this.region = value;
     }
 
     /**
