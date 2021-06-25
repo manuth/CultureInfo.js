@@ -24,10 +24,11 @@ export class CultureInfo
     private region: string = null;
 
     /**
-     * Initializes a new instance of the `CultureInfo` class.
+     * Initializes a new instance of the {@link CultureInfo `CultureInfo`} class.
      *
      * @param name
-     * A predefined `CultureInfo` name, `Name` of an existing `CultureInfo`. `name` is not case-sensitive.
+     * A predefined {@link CultureInfo `CultureInfo`} name, `Name` of an existing {@link CultureInfo `CultureInfo`}.
+     * {@link name `name`} is not case-sensitive.
      */
     public constructor(name: string)
     {
@@ -58,7 +59,7 @@ export class CultureInfo
     }
 
     /**
-     * Gets the `CultureInfo` object that is culture-independent (invariant).
+     * Gets the {@link CultureInfo `CultureInfo`} object that is culture-independent (invariant).
      */
     public static get InvariantCulture(): CultureInfo
     {
@@ -71,7 +72,7 @@ export class CultureInfo
     }
 
     /**
-     * Gets a value indicating whether the current `CultureInfo` represents a neutral culture.
+     * Gets a value indicating whether the current {@link CultureInfo `CultureInfo`} represents a neutral culture.
      */
     public get IsNeutralCulture(): boolean
     {
@@ -99,7 +100,7 @@ export class CultureInfo
     }
 
     /**
-     * Gets the `CultureInfo` that represents the parent culture of the current `CultureInfo`.
+     * Gets the {@link CultureInfo `CultureInfo`} that represents the parent culture of the current {@link CultureInfo `CultureInfo`}.
      */
     public get Parent(): CultureInfo
     {
