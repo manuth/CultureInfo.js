@@ -103,7 +103,7 @@ export class CultureInfo
      */
     public get Parent(): CultureInfo
     {
-        if (this.IsNeutralCulture || this === CultureInfo.InvariantCulture)
+        if (this.Script === null && this.Region === null)
         {
             return CultureInfo.InvariantCulture;
         }
