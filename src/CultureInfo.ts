@@ -76,7 +76,7 @@ export class CultureInfo
      */
     public get IsNeutralCulture(): boolean
     {
-        return !this.region && !this.Script;
+        return !this.region;
     }
 
     /**
