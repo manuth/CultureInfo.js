@@ -48,12 +48,12 @@ export class CultureInfo
 
             if (result[2])
             {
-                this.script = result[2].charAt(0).toUpperCase() + result[2].slice(1).toLocaleLowerCase();
+                this.Script = result[2].charAt(0).toUpperCase() + result[2].slice(1).toLocaleLowerCase();
             }
 
             if (result[3])
             {
-                this.region = result[3].toUpperCase();
+                this.Region = result[3].toUpperCase();
             }
         }
     }
@@ -76,7 +76,7 @@ export class CultureInfo
      */
     public get IsNeutralCulture(): boolean
     {
-        return !this.region;
+        return !this.Region;
     }
 
     /**
@@ -91,9 +91,9 @@ export class CultureInfo
             result += "-" + this.Script;
         }
 
-        if (this.region)
+        if (this.Region)
         {
-            result += "-" + this.region;
+            result += "-" + this.Region;
         }
 
         return result;
