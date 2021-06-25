@@ -27,8 +27,7 @@ export class CultureInfo
      * Initializes a new instance of the {@link CultureInfo `CultureInfo`} class.
      *
      * @param name
-     * A predefined {@link CultureInfo `CultureInfo`} name, `Name` of an existing {@link CultureInfo `CultureInfo`}.
-     * {@link name `name`} is not case-sensitive.
+     * A non case-sensitive predefined {@link CultureInfo `CultureInfo`} name.
      */
     public constructor(name: string)
     {
