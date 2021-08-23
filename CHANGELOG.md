@@ -6,7 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## CultureInfo.js [Unreleased]
 
-[Show differences](https://github.com/manuth/CultureInfo.js/compare/v2.0.0...dev)
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v2.0.1...dev)
+
+## CultureInfo.js v2.0.1
+### Fixed
+  - Vulnerabilities in dependencies
+  - Broken publish-scripts
+
+### Added
+  - Support for parallel step-execution in drone-pipelines
+
+### Updated
+  - All dependencies
+  - Settings to disable timeouts for mocha unit-tests
+
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v2.0.0...v2.0.1)
 
 ## CultureInfo.js v2.0.0
 ### Breaking
