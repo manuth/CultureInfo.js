@@ -41,7 +41,6 @@
   "devDependencies": {
     "@manuth/eslint-plugin-typescript": "^3.2.6",
     "@manuth/tsconfig": "^3.0.0",
-    "@manuth/tslint-presets": "^1.0.5",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.11.12",
     "@types/ts-nameof": "^4.2.1",
@@ -50,7 +49,6 @@
     "rimraf": "^3.0.2",
     "source-map-support": "^0.5.21",
     "ts-nameof": "^5.0.0",
-    "ts-node": "^10.4.0",
     "ts-patch": "^2.0.1",
     "typescript": "^4.5.3"
   }
