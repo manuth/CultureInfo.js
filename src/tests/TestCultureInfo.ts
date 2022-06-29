@@ -1,4 +1,4 @@
-import { CultureInfo } from "../CultureInfo";
+import { CultureInfo } from "../CultureInfo.js";
 
 /**
  * Provides an implementation of the {@link CultureInfo `CultureInfo`} class for testing.

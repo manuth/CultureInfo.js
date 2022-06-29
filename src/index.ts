@@ -1,1 +1,1 @@
-export { CultureInfo } from "./CultureInfo";
+export { CultureInfo } from "./CultureInfo.js";
