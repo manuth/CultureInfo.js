@@ -5,10 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## CultureInfo.js [Unreleased]
+
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v3.0.0...dev)
+
+## CultureInfo.js v3.0.0
 ### Breaking
   - Converted the package to an ESModule
 
-[Show differences](https://github.com/manuth/CultureInfo.js/compare/v2.0.3...dev)
+[Show differences](https://github.com/manuth/CultureInfo.js/compare/v2.0.3...v3.0.0)
 
 ## CultureInfo.js v2.0.3
 ### Fixed
