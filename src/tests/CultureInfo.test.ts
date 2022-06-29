@@ -1,6 +1,6 @@
 import { ok, strictEqual } from "assert";
-import { CultureInfo } from "../CultureInfo";
-import { TestCultureInfo } from "./TestCultureInfo";
+import { CultureInfo } from "../CultureInfo.js";
+import { TestCultureInfo } from "./TestCultureInfo.js";
 
 /**
  * Registers tests for the {@link CultureInfo `CultureInfo`} class.
