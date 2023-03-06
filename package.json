@@ -47,7 +47,7 @@
     "patchTypeScript": "ts-patch install"
   },
   "devDependencies": {
-    "@manuth/eslint-plugin-typescript": "^3.3.1",
+    "@manuth/eslint-plugin-typescript": "^4.1.0",
     "@manuth/tsconfig": "^3.0.2",
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.0.0",
